@@ -10,7 +10,7 @@ import { signOut, useSession } from 'next-auth/react'
 import { useEffect, useState } from 'react'
 import { useRecoilState } from 'recoil'
 import { playlistIdState } from '../atoms/playlistAtom'
-import useSpotify from '../hooks/useSpotify'
+import useSpotify from '../hooks/useSpotify' 
 
 function Sidebar() {
   const spotifyApi = useSpotify()
