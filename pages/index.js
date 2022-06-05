@@ -10,10 +10,6 @@ export default function Home() {
         <Sidebar />
         <Center />
       </main>
-
-      <div className="button-0 sticky">
-        <Player />
-      </div>
     </div>
   )
 }
